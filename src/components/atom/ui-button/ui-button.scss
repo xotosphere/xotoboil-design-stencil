@@ -1,0 +1,11 @@
+:host {
+  display: block;
+}
+
+button {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: var(--ui-custom-button-color, var(--ui-button-color, var(--ui-button-color)));
+  color: white;
+}

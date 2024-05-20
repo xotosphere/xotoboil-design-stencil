@@ -1,0 +1,41 @@
+@font-face {
+  font-family: primary;
+  src: url('./font/LocatorRegular.otf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: primary;
+  src: url('./font/LocatorBold.otf');
+  font-weight: bold;
+}
+
+html * {
+  font-family: primary;
+  font-size: var(--font-size--normal);
+  line-height: var(--line-height);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  margin-right: 5px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
