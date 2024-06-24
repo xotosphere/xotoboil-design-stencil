@@ -1,5 +1,5 @@
 {
-  "name": "xotoboil-storybook-stencil",
+  "name": "xotoboil-design-stencil",
   "version": "0.0.0",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -8,7 +8,7 @@
   "types": "dist/types/components.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/xotoboil-storybook-stencil/xotoboil-storybook-stencil.esm.js",
+  "unpkg": "dist/xotoboil-design-stencil/xotoboil-design-stencil.esm.js",
   "engines": {
     "node": "v18.16.0",
     "yarn": ">= 3.0.0"
